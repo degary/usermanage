@@ -1,0 +1,559 @@
+2020/12/20 10:46:49.588 [main.go:31]  connet db err: register db `default`, sql: unknown driver "mysql" (forgotten import?)
+2020/12/20 10:46:49.588 [main.go:33]  connect mysql success
+2020/12/20 10:46:49.649 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 10:48:19.822 [main.go:32]  connet db err: register db Ping `default`, dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context.
+2020/12/20 10:48:19.887 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 10:49:04.093 [main.go:34]  connect mysql success
+2020/12/20 10:49:04.154 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 12:37:21.352 [main.go:42]  connect mysql success
+2020/12/20 12:37:21.414 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 12:38:45.854 [main.go:39]  connet db err: register db Ping `default`, dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context.
+2020/12/20 13:04:31.985 [main.go:43]  connect mysql success
+2020/12/20 13:04:32.048 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:04:57.544 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|      1.032ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 13:05:03.849 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 13:06:10.903 [I] [value.go:460]  usercontroller log
+2020/12/20 13:06:10.904 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.0002ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 13:11:27.561 [I] [main.go:14]  connect mysql success
+2020/12/20 13:11:27.622 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:11:57.197 [I] [value.go:460]  usercontroller log
+2020/12/20 13:11:57.202 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.0003ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 13:12:02.556 [I] [value.go:460]  usercontroller log
+2020/12/20 13:12:02.557 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.9988ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 13:12:34.572 [I] [main.go:14]  connect mysql success
+2020/12/20 13:12:34.627 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:13:14.867 [E] [main.go:14]  connet db err: register db Ping `default`, dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context./n
+2020/12/20 13:13:14.925 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:14:03.476 [E] [main.go:14]  connet db err: register db Ping `default`, dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context./n
+2020/12/20 13:14:03.534 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:23:23.007 [E] [main.go:14]  connet db err: register db Ping `default`, dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context.
+
+2020/12/20 13:23:23.070 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:29:31.072 [E] [main.go:14]  connet db err: register db Ping `default`, dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context.
+
+2020/12/20 13:29:31.137 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:32:33.438 [I] [main.go:14]  connect mysql success
+2020/12/20 13:32:33.498 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:32:46.759 [I] [value.go:460]  usercontroller log
+
+
+2020/12/20 13:33:47.538 [I] [value.go:460]  usercontroller log
+2020/12/20 13:43:56.012 [I] [main.go:15]  connect mysql success
+2020/12/20 13:43:56.158 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:47:18.134 [I] [main.go:15]  connect mysql success
+2020/12/20 13:47:18.249 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:47:59.772 [I] [main.go:15]  connect mysql success
+2020/12/20 13:47:59.847 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 13:55:01.453 [I] [main.go:15]  connect mysql success
+2020/12/20 13:55:01.565 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 14:28:01.417 [I] [main.go:16]  connect mysql success
+2020/12/20 14:28:01.496 [I] [main.go:16]  创建管理员账号
+2020/12/20 14:28:01.658 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 14:29:01.897 [I] [main.go:16]  connect mysql success
+2020/12/20 14:29:01.970 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 14:50:30.340 [I] [main.go:16]  connect mysql success
+2020/12/20 14:50:30.416 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 14:50:48.252 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     3.0025ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 14:50:58.282 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 14:50:58.366 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    84.0277ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 14:50:58.372 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|      998.9µs| nomatch|[44m GET     [0m /article/list
+2020/12/20 14:51:36.226 [I] [main.go:16]  connect mysql success
+2020/12/20 14:51:36.301 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 14:51:56.077 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     3.0081ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 14:52:04.580 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 14:52:04.665 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     86.005ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 14:52:04.671 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     1.0126ms| nomatch|[44m GET     [0m /article/list
+2020/12/20 14:53:01.658 [I] [main.go:16]  connect mysql success
+2020/12/20 14:53:01.738 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 14:53:14.531 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.0108ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 14:53:21.550 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 14:53:21.640 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    91.0157ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 14:53:21.647 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.0211ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 14:54:22.484 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /user/login   r:/user/login/*
+2020/12/20 14:54:26.847 [I] [value.go:460]  &{aaa aaa}
+2020/12/20 14:54:26.851 [E] [value.go:460]  用户名或密码错误
+2020/12/20 14:54:26.855 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|       7.82ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 15:04:03.232 [I] [main.go:16]  connect mysql success
+2020/12/20 15:04:03.326 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 15:04:15.578 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|      998.7µs| nomatch|[44m GET     [0m /  
+2020/12/20 15:04:24.482 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /user/login   r:/user/login/*
+2020/12/20 15:04:31.087 [I] [value.go:460]  &{aaaa aaaa}
+2020/12/20 15:04:31.092 [E] [value.go:460]  用户名或密码错误
+2020/12/20 15:04:31.094 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.0188ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 15:04:41.870 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 15:04:41.959 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    89.0011ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 15:04:41.965 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 15:25:45.328 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     2.0123ms|   match|[44m GET     [0m /user/login   r:/user/login/*
+2020/12/20 15:25:49.254 [I] [value.go:460]  &{aaa aaa}
+2020/12/20 15:25:49.258 [E] [value.go:460]  用户名或密码错误
+2020/12/20 15:25:49.260 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|          6ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 15:26:00.668 [I] [main.go:16]  connect mysql success
+2020/12/20 15:26:00.744 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 15:26:09.826 [I] [value.go:460]  &{aaa aaaaa}
+2020/12/20 15:26:09.829 [E] [usercontroller.go:23]  用户名或密码错误
+2020/12/20 15:26:09.830 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     3.9995ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 15:28:08.947 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 15:28:09.059 [I] [value.go:460]  用户:admin登录成功
+2020/12/20 15:28:09.060 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    113.058ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 15:28:09.064 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 15:36:16.678 [I] [main.go:16]  connect mysql success
+2020/12/20 15:36:16.771 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 15:36:17.598 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     6.0013ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 15:36:17.606 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.9997ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 15:36:39.485 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|           0s|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 15:36:39.491 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.0035ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 15:39:40.265 [I] [main.go:16]  connect mysql success
+2020/12/20 15:39:40.337 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 15:39:50.302 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0248ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 15:39:50.312 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.8075ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 15:40:10.232 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|           0s|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 15:40:10.244 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|      998.9µs|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 15:40:30.880 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 15:40:30.978 [I] [value.go:460]  用户:admin登录成功
+2020/12/20 15:40:30.979 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    98.9252ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 15:40:30.986 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|      987.8µs|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 15:40:55.520 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.9993ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 15:43:23.164 [I] [main.go:16]  connect mysql success
+2020/12/20 15:43:23.272 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 15:43:42.254 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0053ms|   match|[44m GET     [0m /user/logout   r:/user/logout/*
+2020/12/20 15:43:42.262 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.9987ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 15:43:49.004 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|           0s|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 15:43:49.015 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     4.0273ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 15:49:25.028 [I] [main.go:16]  connect mysql success
+2020/12/20 15:49:25.123 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 15:49:33.387 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     3.9083ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 15:49:40.723 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 15:49:40.813 [I] [value.go:460]  用户:admin登录成功
+2020/12/20 15:49:40.814 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    91.0199ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 15:49:40.821 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|      999.9µs|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:06:07.327 [I] [main.go:17]  connect mysql success
+2020/12/20 16:06:07.424 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 16:06:18.598 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    30.0009ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:06:18.635 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    26.0005ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:06:27.613 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 16:06:27.705 [I] [value.go:460]  用户:admin登录成功
+2020/12/20 16:06:27.705 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|   120.9999ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 16:06:27.747 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    32.0005ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:07:16.330 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    43.9959ms|   match|[44m GET     [0m /user/logout/   r:/user/logout/*
+2020/12/20 16:07:16.351 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    16.9809ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:07:35.287 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 16:07:35.376 [I] [value.go:460]  用户:admin登录成功
+2020/12/20 16:07:35.377 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|   112.9925ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 16:07:35.420 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    33.0007ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:23:30.348 [I] [main.go:17]  connect mysql success
+2020/12/20 16:23:59.659 [I] [main.go:17]  connect mysql success
+2020/12/20 16:23:59.734 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 16:24:09.325 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    14.0195ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:24:09.339 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.9994ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:24:16.609 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 16:24:16.690 [I] [value.go:460]  用户:admin登录成功
+2020/12/20 16:24:16.691 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    85.9977ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 16:24:16.703 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     4.9979ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:29:17.260 [I] [main.go:17]  connect mysql success
+2020/12/20 16:29:17.359 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 16:29:29.602 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|      6.999ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:29:39.578 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     5.2593ms|   match|[44m GET     [0m /user/logout   r:/user/logout/*
+2020/12/20 16:29:39.598 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    11.5146ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.613 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.9992ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.626 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0028ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.640 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9872ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.651 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.9999ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.660 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9951ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.671 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9978ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.677 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0001ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.686 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9992ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.692 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9993ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.701 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9995ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.709 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9987ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.718 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0002ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.728 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|          3ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.737 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      2.995ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.744 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0002ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.753 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|          3ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.760 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0057ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:39.768 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9197ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.828 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0155ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.843 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9979ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.855 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.5983ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.863 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      2.999ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.876 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9894ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.888 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.8732ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.899 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0081ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.909 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9982ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.917 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0011ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.925 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9986ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.934 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9958ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.942 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0029ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.951 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9988ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.958 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9931ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.965 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0016ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.974 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      2.998ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.983 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9991ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:40.992 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0065ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:41.002 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9998ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:41.010 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9993ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.029 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0038ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.047 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     5.0064ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.089 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      7.011ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.100 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9989ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.113 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0013ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.127 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9931ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.141 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     6.9991ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.153 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     5.0003ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.174 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     5.9996ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.181 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9992ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.192 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     6.0049ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.203 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0013ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.211 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0029ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.218 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0034ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.228 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0019ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.238 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.9999ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.246 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9997ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.252 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0018ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.262 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9928ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:46.270 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0001ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.574 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     6.9993ms|   match|[44m GET     [0m /user/logout/   r:/user/logout/*
+2020/12/20 16:29:47.585 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0006ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.596 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9891ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.608 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     5.0007ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.617 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9973ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.629 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9992ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.639 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.5222ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.648 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0032ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.659 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     7.1075ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.668 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0004ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.678 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9978ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.685 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0023ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.695 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9981ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.703 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0008ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.713 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0002ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.724 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|          4ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.734 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9993ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.743 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9998ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.750 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0001ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:47.760 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0038ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.800 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9989ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.810 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9975ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.824 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0024ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.839 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0005ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.850 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0003ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.861 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.8238ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.870 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9988ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.881 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0062ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.890 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0135ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.899 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0172ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.908 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9915ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.916 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      4.006ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.924 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0014ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.933 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0011ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.942 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      4.001ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.950 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0001ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.959 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0028ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.966 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|          3ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.977 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0002ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:48.984 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9994ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.008 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9979ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.019 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0012ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.028 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0003ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.039 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0003ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.049 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9994ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.059 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9977ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.070 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.0012ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.080 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9936ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.088 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9984ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.097 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0078ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.109 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      2.999ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.117 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0042ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.130 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.9962ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.141 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      3.001ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.151 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9995ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.161 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      2.998ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.174 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9997ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.183 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.9919ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.192 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9962ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:29:54.204 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9993ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.229 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.9964ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.237 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0039ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.248 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0025ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.258 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0031ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.266 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.0016ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.275 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9991ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.283 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|      2.991ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.294 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     5.0004ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.303 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9902ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.313 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9939ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.323 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9993ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.331 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9965ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.339 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9988ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.347 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9981ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.354 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     1.9972ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.364 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.5616ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.372 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.9977ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.380 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     2.3867ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.388 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.5203ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:30:24.396 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     3.0008ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:37:50.253 [I] [main.go:17]  connect mysql success
+2020/12/20 16:37:50.341 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 16:37:58.494 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.9946ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:38:06.708 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 16:38:06.796 [I] [value.go:460]  用户:admin登录成功
+2020/12/20 16:38:06.797 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    92.7265ms|   match|[46m POST    [0m /user/login/   r:/user/login/*
+2020/12/20 16:38:06.811 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     4.9995ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:38:17.160 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     6.0021ms|   match|[44m GET     [0m /user/logout   r:/user/logout/*
+2020/12/20 16:38:17.175 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     5.6293ms|   match|[44m GET     [0m /user/login/   r:/user/login/*
+2020/12/20 16:47:07.392 [I] [main.go:17]  connect mysql success
+2020/12/20 16:47:07.475 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 16:47:23.196 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     9.0038ms| nomatch|[44m GET     [0m /auth/login/
+2020/12/20 16:47:58.694 [I] [main.go:17]  connect mysql success
+2020/12/20 16:47:58.771 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/20 16:48:05.022 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     8.9982ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/20 16:48:12.726 [I] [value.go:460]  &{admin abc@123}
+2020/12/20 16:48:12.819 [I] [value.go:460]  用户:admin登录成功
+2020/12/20 16:48:12.820 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    98.9993ms|   match|[46m POST    [0m /auth/login/   r:/auth/login/*
+2020/12/20 16:48:12.834 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|          5ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:48:25.915 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     5.9903ms|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/12/20 16:48:25.931 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    11.0008ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/20 16:48:32.255 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     4.9838ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/20 16:48:32.269 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.9999ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/26 18:44:08.986 [E] [main.go:17]  connet db err: register db Ping `default`, dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+
+2020/12/26 18:44:09.730 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 18:44:31.658 [D] [server.go:2807]  |            ::1|[43m 404 [0m|    14.0049ms| nomatch|[44m GET     [0m /  
+2020/12/26 18:44:31.731 [D] [server.go:2807]  |            ::1|[43m 404 [0m|     3.9978ms| nomatch|[44m GET     [0m /favicon.ico
+2020/12/26 18:44:39.764 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     3.8344ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/12/26 18:45:05.209 [I] [value.go:460]  &{admin abc@123}
+2020/12/26 18:46:24.715 [I] [main.go:17]  connect mysql success
+2020/12/26 18:46:24.814 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 18:46:34.954 [I] [value.go:460]  &{admin abc@123}
+2020/12/26 18:46:35.047 [I] [value.go:460]  用户:admin登录成功
+2020/12/26 18:46:35.047 [D] [server.go:2807]  |            ::1|[47m 302 [0m|    98.9987ms|   match|[46m POST    [0m /auth/login/   r:/auth/login/*
+2020/12/26 18:46:35.057 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.9986ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:09.481 [I] [main.go:17]  connect mysql success
+2020/12/26 18:51:09.576 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 18:51:15.939 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     8.9981ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:17.084 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.9205ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:17.618 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     3.9952ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:17.825 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.0013ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:17.996 [D] [server.go:2807]  |            ::1|[42m 200 [0m|      4.003ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:18.179 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.0284ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:18.348 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.9831ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:18.513 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     3.9444ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:18.682 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.9929ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:18.819 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.9997ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 18:51:22.534 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.0007ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 18:56:08.576 [D] [server.go:2807]  |            ::1|[43m 404 [0m|     4.3986ms| nomatch|[44m GET     [0m /arcicle/list
+2020/12/26 18:56:14.410 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.9982ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 19:10:27.817 [D] [server.go:2807]  |            ::1|[43m 404 [0m|     4.0003ms| nomatch|[44m GET     [0m /user/logout
+2020/12/26 19:10:35.310 [D] [server.go:2807]  |            ::1|[47m 302 [0m|     6.9652ms|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/12/26 19:10:35.320 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     3.9979ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/26 19:10:35.348 [D] [server.go:2807]  |            ::1|[42m 200 [0m|      1.002ms|   match|[44m GET     [0m /static/css/login.css
+2020/12/26 19:10:35.348 [D] [server.go:2807]  |            ::1|[42m 200 [0m|      1.002ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css
+2020/12/26 19:15:48.487 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.0029ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/26 19:15:48.509 [D] [server.go:2807]  |            ::1|[47m 304 [0m|     2.0045ms|   match|[44m GET     [0m /static/css/login.css
+2020/12/26 19:19:03.994 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     4.6346ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/26 19:19:04.016 [D] [server.go:2807]  |            ::1|[47m 304 [0m|     1.0001ms|   match|[44m GET     [0m /static/css/login.css
+2020/12/26 19:19:11.685 [I] [value.go:460]  &{admin abc@123}
+2020/12/26 19:19:11.773 [I] [value.go:460]  用户:admin登录成功
+2020/12/26 19:19:11.774 [D] [server.go:2807]  |            ::1|[47m 302 [0m|    94.1988ms|   match|[46m POST    [0m /auth/login/   r:/auth/login/*
+2020/12/26 19:19:11.787 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     2.9869ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 19:19:37.371 [D] [server.go:2807]  |            ::1|[47m 302 [0m|     6.9999ms|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/12/26 19:19:37.378 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     2.9965ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/26 19:20:45.425 [I] [value.go:460]  &{admin abc@123}
+2020/12/26 19:20:45.510 [I] [value.go:460]  用户:admin登录成功
+2020/12/26 19:20:45.511 [D] [server.go:2807]  |            ::1|[47m 302 [0m|    89.9948ms|   match|[46m POST    [0m /auth/login/   r:/auth/login/*
+2020/12/26 19:20:45.523 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     5.0017ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 19:27:48.812 [I] [main.go:17]  connect mysql success
+2020/12/26 19:27:48.920 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 19:27:59.984 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     5.9996ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:08:32.053 [I] [main.go:17]  connect mysql success
+2020/12/26 20:08:32.163 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 20:08:39.256 [D] [server.go:2807]  |            ::1|[42m 200 [0m|    16.0365ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:08:43.934 [D] [server.go:2807]  |            ::1|[47m 302 [0m|     6.0016ms|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/12/26 20:08:43.943 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     5.0023ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/26 20:08:43.964 [D] [server.go:2807]  |            ::1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/login.css
+2020/12/26 20:08:50.527 [I] [value.go:460]  &{admin abc@123}
+2020/12/26 20:08:50.610 [I] [value.go:460]  用户:admin登录成功
+2020/12/26 20:08:50.610 [D] [server.go:2807]  |            ::1|[47m 302 [0m|    86.9972ms|   match|[46m POST    [0m /auth/login/   r:/auth/login/*
+2020/12/26 20:08:50.624 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.0039ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:34.809 [D] [server.go:2807]  |            ::1|[42m 200 [0m|    10.0004ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:36.809 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     7.0094ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:37.621 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.9987ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:38.234 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     9.0315ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:38.517 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     7.4683ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:38.697 [D] [server.go:2807]  |            ::1|[42m 200 [0m|       6.91ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:38.898 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     8.0013ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:39.071 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     7.0024ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:39.250 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     8.0027ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:39.435 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.9991ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:39.614 [D] [server.go:2807]  |            ::1|[42m 200 [0m|      6.077ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:39.803 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     5.6256ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:39.983 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     9.0059ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:40.192 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     5.6103ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:40.350 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.0022ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:40.539 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.0011ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:40.711 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.0004ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:18:40.901 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     7.0023ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:19:42.120 [I] [main.go:17]  connect mysql success
+2020/12/26 20:19:42.195 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 20:19:51.770 [D] [server.go:2807]  |            ::1|[42m 200 [0m|    14.0042ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:19:52.839 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     7.6524ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:19:53.279 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.0022ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:19:53.452 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.9926ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:19:53.630 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     5.9997ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:19:53.854 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.7743ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:20:32.916 [I] [main.go:17]  connect mysql success
+2020/12/26 20:20:32.988 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 20:20:40.938 [D] [server.go:2807]  |            ::1|[42m 200 [0m|    13.9996ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:21:26.268 [D] [server.go:2807]  |            ::1|[42m 200 [0m|    10.0022ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:21:27.808 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     7.0002ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:21:28.437 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     8.0302ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:21:48.987 [I] [main.go:17]  connect mysql success
+2020/12/26 20:21:49.062 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 20:21:54.978 [D] [server.go:2807]  |            ::1|[42m 200 [0m|    12.0348ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:22:34.012 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.8781ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:23:24.828 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.0263ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:23:24.860 [D] [server.go:2807]  |            ::1|[43m 404 [0m|     4.0005ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 20:23:26.282 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     8.9913ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:23:26.310 [D] [server.go:2807]  |            ::1|[43m 404 [0m|     4.9947ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 20:23:27.172 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.9951ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:23:27.195 [D] [server.go:2807]  |            ::1|[43m 404 [0m|     3.0457ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 20:23:27.803 [D] [server.go:2807]  |            ::1|[42m 200 [0m|      6.761ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:23:27.832 [D] [server.go:2807]  |            ::1|[43m 404 [0m|     9.0041ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 20:23:34.026 [I] [main.go:17]  connect mysql success
+2020/12/26 20:23:34.096 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 20:23:45.516 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     9.9595ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:23:45.546 [D] [server.go:2807]  |            ::1|[43m 404 [0m|     5.0012ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 20:23:47.897 [D] [server.go:2807]  |            ::1|[42m 200 [0m|     6.9985ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:23:47.923 [D] [server.go:2807]  |            ::1|[43m 404 [0m|     7.0029ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 20:32:15.783 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     7.9994ms| nomatch|[44m GET     [0m /user/login/
+2020/12/26 20:32:16.437 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     2.9923ms| nomatch|[44m GET     [0m /favicon.ico
+2020/12/26 20:32:22.061 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     5.0282ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/26 20:32:22.088 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|        998µs|   match|[44m GET     [0m /static/css/login.css
+2020/12/26 20:32:22.089 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.0033ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css
+2020/12/26 20:32:32.190 [I] [value.go:460]  &{admin abc@123}
+2020/12/26 20:32:32.286 [I] [value.go:460]  用户:admin登录成功
+2020/12/26 20:32:32.286 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     98.999ms|   match|[46m POST    [0m /auth/login/   r:/auth/login/*
+2020/12/26 20:32:32.299 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     4.9973ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:32:32.317 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     3.0028ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 20:33:03.676 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.0069ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 20:33:13.143 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     2.0077ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css.map
+2020/12/26 20:33:30.096 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.0006ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 20:33:30.174 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     2.0004ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css.map
+2020/12/26 20:35:27.071 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.0281ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 20:35:27.156 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|      2.001ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css.map
+2020/12/26 20:37:05.322 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    11.0799ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 20:38:14.257 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.0019ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/26 20:38:14.286 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     8.0175ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 20:39:16.319 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.9993ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 20:39:19.872 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     2.9992ms| nomatch|[44m GET     [0m /user/query/
+2020/12/26 20:41:42.144 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.0018ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 20:41:43.681 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.0014ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:41:43.708 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     4.0054ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 20:42:34.066 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.4319ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:48:25.445 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.0028ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:48:28.604 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    12.0029ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:48:29.535 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|      8.594ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:48:30.098 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.6404ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:48:41.445 [I] [main.go:17]  connect mysql success
+2020/12/26 20:48:41.537 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 20:48:50.617 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    12.7111ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:52:41.853 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.9995ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:52:43.195 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.9219ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:52:43.663 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|       5.95ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:52:43.934 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     5.8629ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:52:44.177 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.5037ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:52:44.414 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.0021ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:52:45.462 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.9993ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css.map
+2020/12/26 20:57:41.208 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    10.9993ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 20:57:41.252 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.0023ms|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 20:57:41.304 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     2.1335ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css.map
+2020/12/26 20:58:29.007 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    11.0311ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:00:44.103 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.9174ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:00:44.124 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 21:01:04.230 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.0013ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 21:01:07.985 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.0022ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:01:08.009 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 21:06:03.524 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     8.0026ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:06:03.546 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 21:08:16.212 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.0009ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:08:16.230 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 21:08:38.276 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     8.0092ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 21:10:12.821 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.9886ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 21:10:12.844 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 21:10:39.164 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.7243ms|   match|[44m GET     [0m /article/list/   r:/article/list/*
+2020/12/26 21:10:56.691 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     8.0012ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:13:32.525 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     8.9898ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:13:32.547 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 21:20:29.690 [I] [main.go:17]  connect mysql success
+2020/12/26 21:20:29.928 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 21:22:59.477 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    15.4027ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:22:59.499 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 21:33:20.812 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.9304ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:33:20.835 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 21:35:42.615 [I] [main.go:17]  connect mysql success
+2020/12/26 21:35:42.712 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 21:35:51.120 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    17.6256ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:40:02.809 [I] [main.go:17]  connect mysql success
+2020/12/26 21:40:02.899 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 21:40:12.306 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    22.9973ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/26 21:40:12.333 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 21:40:14.223 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    16.4997ms|   match|[44m GET     [0m /user/delete/   r:/user/delete/*
+2020/12/26 21:40:14.236 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.5947ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 21:40:18.263 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     8.9117ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 22:34:59.618 [I] [main.go:17]  connect mysql success
+2020/12/26 22:34:59.710 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 22:35:35.037 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     21.091ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 22:35:35.061 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 22:35:36.012 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.2972ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 22:35:41.203 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    11.0311ms|   match|[44m GET     [0m /user/add/   r:/user/add/*
+2020/12/26 22:35:41.229 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     4.0021ms| nomatch|[44m GET     [0m /static/bootstrap-4.5.3-dist/bootstrap.css
+2020/12/26 22:38:21.163 [I] [main.go:17]  connect mysql success
+2020/12/26 22:38:21.238 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 22:38:34.597 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    18.7632ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 22:38:37.080 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    11.0052ms|   match|[44m GET     [0m /user/add/   r:/user/add/*
+2020/12/26 22:41:34.829 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.1927ms|   match|[44m GET     [0m /user/add/   r:/user/add/*
+2020/12/26 22:41:51.783 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|   112.9987ms|   match|[46m POST    [0m /user/add   r:/user/add/*
+2020/12/26 22:41:51.799 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.0003ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 22:44:58.295 [I] [main.go:17]  connect mysql success
+2020/12/26 22:44:58.383 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/26 22:45:06.050 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    16.3188ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 22:45:07.060 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.6136ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 22:45:08.908 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    23.0158ms|   match|[44m GET     [0m /user/delete/   r:/user/delete/*
+2020/12/26 22:45:08.933 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    13.0007ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/26 22:45:10.389 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     9.0025ms|   match|[44m GET     [0m /user/add/   r:/user/add/*
+2020/12/26 22:45:22.009 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     5.3679ms|   match|[46m POST    [0m /user/add   r:/user/add/*
+2020/12/26 22:45:22.022 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     5.9983ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:51:35.748 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.9979ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:51:35.773 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/26 22:51:46.710 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     7.7767ms|   match|[46m POST    [0m /user/add   r:/user/add/*
+2020/12/26 22:51:46.725 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.0438ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:52:18.280 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.9949ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css.map
+2020/12/26 22:54:52.939 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     1.9999ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css.map
+2020/12/26 22:56:03.796 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    11.9996ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:56:03.917 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.9905ms|   match|[44m GET     [0m /static/bootstrap-4.5.3-dist/css/bootstrap.css.map
+2020/12/26 22:56:19.523 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     7.9848ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:56:34.402 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.9874ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:57:32.411 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     8.0347ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:57:39.054 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|          9ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:58:47.496 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.9964ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:59:04.615 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     5.6447ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/12/26 22:59:24.070 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    12.0031ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/27 10:00:48.455 [I] [main.go:17]  connect mysql success
+2020/12/27 10:00:48.843 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/12/27 10:00:57.437 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     8.0112ms| nomatch|[44m GET     [0m /user/login/
+2020/12/27 10:00:59.545 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     3.9717ms| nomatch|[44m GET     [0m /favicon.ico
+2020/12/27 10:01:04.098 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     8.0037ms|   match|[44m GET     [0m /auth/login/   r:/auth/login/*
+2020/12/27 10:01:04.122 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|      999.7µs|   match|[44m GET     [0m /static/css/login.css
+2020/12/27 10:01:10.437 [I] [value.go:460]  &{admin abc@123}
+2020/12/27 10:01:10.520 [I] [value.go:460]  用户:admin登录成功
+2020/12/27 10:01:10.521 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|    88.0298ms|   match|[46m POST    [0m /auth/login/   r:/auth/login/*
+2020/12/27 10:01:10.538 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|      8.989ms|   match|[44m GET     [0m /article/list   r:/article/list/*
+2020/12/27 10:01:10.560 [D] [server.go:2807]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/12/27 10:01:13.092 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    12.0157ms|   match|[44m GET     [0m /user/list/   r:/user/list/*
+2020/12/27 10:01:17.695 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     4.0042ms| nomatch|[44m GET     [0m /user/update/
+2020/12/27 10:01:32.055 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     4.0028ms| nomatch|[44m GET     [0m /  
+2020/12/27 10:01:44.450 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|    10.0137ms|   match|[44m GET     [0m /user/list   r:/user/list/*
+2020/12/27 10:01:54.236 [D] [server.go:2807]  |      127.0.0.1|[43m 404 [0m|     4.0116ms| nomatch|[44m GET     [0m /user/update/
+2020/12/27 10:02:44.182 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     8.0062ms|   match|[44m GET     [0m /user/add/   r:/user/add/*
+2020/12/27 10:02:52.396 [D] [server.go:2807]  |      127.0.0.1|[47m 302 [0m|     9.0144ms|   match|[46m POST    [0m /user/add   r:/user/add/*
+2020/12/27 10:02:52.411 [D] [server.go:2807]  |      127.0.0.1|[42m 200 [0m|     6.9828ms|   match|[44m GET     [0m /user/add   r:/user/add/*
