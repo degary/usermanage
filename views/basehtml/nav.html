@@ -12,11 +12,19 @@
                 <a class="nav-link" href="/article/list/">文章管理</a>
             </li>
         </ul>
-        <span class="navbar-text mr-5">
-            当前登陆用户: {{ .currentUser.Name }}
-        </span>
         <form class="form-inline">
-            <a class="btn btn-outline-success" href="/auth/logout/">退出</a>
+            <ul class="navbar-nav mr-auto">
+            <!--<a class="btn btn-outline-success" href="/auth/logout/">退出</a>-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{ .currentUser.Name }}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/auth/logout/">退出</a>
+                    <a class="dropdown-item" href="#">重置密码</a>
+                </div>
+            </li>
+            </ul>
         </form>
     </div>
 </nav>
