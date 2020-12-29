@@ -21,23 +21,24 @@
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <form action="/user/update" method="post">
+            <form action="/article/update/"   method="post">
+                <input type="hidden" name="id" value="{{ .article.Id }}">
                 <div class="form-group row">
                     <label class="col-form-label clo-2">书名</label>
                     <div class="col-6">
-                        <input class="form-control" name="name" value="{{ .article.name }}"/>
+                        <input class="form-control" name="name" value="{{ .article.Name }}"/>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label class="col-form-label clo-2">作者</label>
                     <div class="col-6">
-                        <input class="form-control" name="author" value="{{ .article.author }}"/>
+                        <input class="form-control" name="author" value="{{ .article.Author }}"/>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label class="col-form-label clo-2">价钱</label>
                     <div class="col-6">
-                        <input class="form-control" name="price" value="{{ .article.price }}"/>
+                        <input class="form-control" name="price" value="{{ .article.Price }}"/>
                     </div>
                 </div>
                 {{ if .errorPasswd }}

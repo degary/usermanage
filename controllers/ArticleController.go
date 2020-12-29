@@ -1,7 +1,6 @@
 package controllers
 
 import (
-	"fmt"
 	"github.com/degary/usermanage/forms"
 	"github.com/degary/usermanage/services"
 )
@@ -43,10 +42,13 @@ func (c *ArticleController) Update() {
 		}
 	}
 	id, _ := c.GetInt64("id")
-	fmt.Println(id)
 	article := services.GetArticleById(id)
 	c.Data["article"] = &article
 	c.TplName = "articlecontroller/update.html"
+}
+
+func (c *ArticleController) add() {
+
 }
 
 func (c *ArticleController) Prepare() {
