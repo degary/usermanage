@@ -33,6 +33,12 @@ func GetArticleByName(name string) *modules.Article {
 	return nil
 }
 
+func AddArticle(name, author string, price float32) error {
+	ormer := orm.NewOrm()
+	_, err := ormer.Insert(&modules.Article{Name: name, Author: author, Price: price})
+	return err
+}
+
 func DeleteArticleById(pk int64) error {
 	ormer := orm.NewOrm()
 	_, err := ormer.Delete(&modules.Article{Id: pk})

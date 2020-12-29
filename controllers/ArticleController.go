@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"fmt"
 	"github.com/degary/usermanage/forms"
 	"github.com/degary/usermanage/services"
 )
@@ -18,12 +19,12 @@ func (c *ArticleController) List() {
 func (c *ArticleController) Delete() {
 	if getInt64, err := c.GetInt64("id"); err != nil {
 		c.Data["err"] = err
-		c.TplName = "articlecontroller/list.tpl"
+		c.Redirect("/article/list/", 302)
 		return
 	} else {
 		err = services.DeleteArticleById(getInt64)
 		c.Data["err"] = err
-		c.TplName = "articlecontroller/list.tpl"
+		c.Redirect("/article/list/", 302)
 	}
 }
 
@@ -47,8 +48,24 @@ func (c *ArticleController) Update() {
 	c.TplName = "articlecontroller/update.html"
 }
 
-func (c *ArticleController) add() {
-
+func (c *ArticleController) Add() {
+	if c.Ctx.Input.IsPost() {
+		article := forms.UpdateArticleForm{}
+		err2 := c.ParseForm(&article)
+		if err2 != nil {
+			c.Data["errMsg"] = err2
+			c.TplName = "articlecontroller/add.html"
+			return
+		}
+		err := services.AddArticle(article.Name, article.Author, article.Price)
+		if err != nil {
+			errMsg := fmt.Sprintf(err.Error())
+			c.Data["errMsg"] = errMsg
+		} else {
+			c.Redirect("/article/list", 302)
+		}
+	}
+	c.TplName = "articlecontroller/add.html"
 }
 
 func (c *ArticleController) Prepare() {
